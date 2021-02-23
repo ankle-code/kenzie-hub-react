@@ -50,7 +50,7 @@ const Form = () => {
           size="small"
           color="primary"
           inputRef={register}
-          error={!!errors.email} //Isso não é a negação da negação. Isso é um ternário simplificado.
+          error={!!errors.email}
           helperText={errors.email?.message}
         />
       </div>
@@ -65,7 +65,7 @@ const Form = () => {
           size="small"
           color="primary"
           inputRef={register}
-          error={!!errors.password} //Isso não é a negação da negação. Isso é um ternário simplificado.
+          error={!!errors.password}
           helperText={errors.password?.message}
         />
       </div>
